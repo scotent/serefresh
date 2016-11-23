@@ -25,7 +25,7 @@ body {
 #detailPage .jumbotron h1{font-family:'Georgia'; font-size:64px;font-weight:400;color:#fff; }
 #detailPage .jumbotron p{font-family:'Open Sans',sans-serif;color:#fff;font-size:25px}
 #detailPage h2.subtitle { margin:10px auto; font-size:20px; text-align:center;}
-#detailPage .page {padding-bottom:10px; min-height:300px;}
+#detailPage .page {padding:40px 10px}
 #detailPage .page:nth-child(even) {background-color:#f1f1f1}
 
 .footer {
