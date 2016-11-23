@@ -87,7 +87,9 @@
             <div class="form-group">
                 <label for="example1">I want to</label>
                 <select class="form-control">
-                    <option></option>
+                    <option>Get help to fund a project</option>
+                    <option>Get help to train my staff</option>
+                    <option>Export to Saudi Arabia</option>
                 </select>
             </div>
             <div class="form-group">
@@ -95,23 +97,36 @@
                 <select class="form-control">
                     <option></option>
                 </select>            </div>
-            <a href="article.html" class="btn btn-primary">See if we can help you</a>
+            <a data-toggle="collapse" href="#infoExample" class="btn btn-primary">See if we can help you</a>
         </form>
     </div>
 </div>
-<!--<div class="page">
+
+<div class="page collapse" id="infoExample">
     <div class="container">
-        <h1>Go Deeper</h1>
-        <div class="row">
-            <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nulla sit amet dolor interdum, at facilisis nunc finibus. Nulla aliquet, urna nec luctus tincidunt, ex velit gravida metus, ac pulvinar elit sem vel tortor. Proin aliquam diam quis massa feugiat, vehicula ornare felis facilisis. Etiam egestas leo a malesuada hendrerit. Aenean et feugiat purus. Aliquam interdum blandit orci eu luctus. Nullam luctus nibh orci, egestas pharetra dolor hendrerit et.</p>
+        <h2>Based on what you’ve told us here are some ways we can help you:</h2>
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img alt="64x64" class="media-object" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTg5MGUwZWM3NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1ODkwZTBlYzc1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy40Njg3NSIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;">                    </a>
             </div>
-            <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nulla sit amet dolor interdum, at facilisis nunc finibus. Nulla aliquet, urna nec luctus tincidunt, ex velit gravida metus, ac pulvinar elit sem vel tortor. Proin aliquam diam quis massa feugiat, vehicula ornare felis facilisis. Etiam egestas leo a malesuada hendrerit. Aenean et feugiat purus. Aliquam interdum blandit orci eu luctus. Nullam luctus nibh orci, egestas pharetra dolor hendrerit et.</p>
+            <div class="media-body">
+                <h4 class="media-heading">We can help you fund your project</h4>
+                <p></p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img alt="64x64" class="media-object" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTg5MGUwZWM3NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1ODkwZTBlYzc1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy40Njg3NSIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;">                    </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Transform your business with digital</h4>
+                <p></p>
             </div>
         </div>
     </div>
-</div>-->
+</div>
 <div class="page">
     <div class="container">
         <h1>Case Studies</h1>
