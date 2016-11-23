@@ -31,9 +31,27 @@
     <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
     </ul>
-    <p class="nav navbar-nav navbar-right">
-        Log In
-    </p>
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a href="#" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-user" />
+                Sign In <span class="caret"></span></a>
+            <div class="panel dropdown-menu" style="width:200px;">
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="example1" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="example2" placeholder="Password">
+                        </div>
+                        <a href="index_in.html" style="width:100%" class="btn btn-primary pull-right">Log In</a><br/>
+                        <a href="#" style="width:100%"  class="btn btn-default pull-right">Sign Up</a>
+                    </form>
+                </div>
+            </div>
+        </li>
+    </ul>
 </div>
 </div>
 </nav>
@@ -59,14 +77,14 @@
             </form>
         </div>
         <div class="col-sm-9">
-                    <form>
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="searchFor" placeholder="How can we help you?">
-                            <div class="input-group-btn">
-                                <a class="btn btn-default" href="results.html"><i class="glyphicon glyphicon-search"></i></a>
-                            </div>
-                        </div>
-                    </form>
+            <form>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="searchFor" placeholder="How can we help you?">
+                    <div class="input-group-btn">
+                        <a class="btn btn-default" href="results.html"><i class="glyphicon glyphicon-search"></i></a>
+                    </div>
+                </div>
+            </form>
 
             <div class="row se-margin-top ">
                 <div class="jumbotron">
