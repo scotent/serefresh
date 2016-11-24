@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Results | Scottish Enterprise</title>
+
+    <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/styles.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-7" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-7">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span>
+                        Sign In <span class="caret"></span></a>
+                    <div class="panel dropdown-menu" style="width:200px;">
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="example1" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="example2" placeholder="Password">
+                                </div>
+                                <a href="index_in.html" style="width:100%" class="btn btn-primary pull-right">Log In</a><br/>
+                                <a href="#" style="width:100%"  class="btn btn-default pull-right">Sign Up</a>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <h3>Narrow your results</h3>
+            <form>
+                <div class="checkbox"><label><input type="checkbox"> Funding</label></div>
+                <div class="checkbox"><label><input type="checkbox"> Advice</label></div>
+                <h4>Information</h4>
+                <div class="checkbox"><label><input type="checkbox"> Insights</label></div>
+                <div class="checkbox"><label><input type="checkbox"> Guides</label></div>
+                <div class="checkbox"><label><input type="checkbox"> Case Studies</label></div>
+                <h4>Events</h4>
+                <div class="checkbox"><label><input type="checkbox"> Conference</label></div>
+                <div class="checkbox"><label><input type="checkbox"> Webinar</label></div>
+                <div class="checkbox" checked><label><input type="checkbox"> Workshop</label></div>
+                <select class="form-control">
+                    <option>Filter By Date Range</option>
+                    <option>From This Week</option>
+                    <option>From This Month</option>
+                    <option>From This Quarter</option>
+                    <option>From This Year</option>
+                    <option>From All Time</option>
+                </select>
+                <select class="form-control">
+                    <option>Filter By Region</option>
+                    <option>Aberdeen City and Shire</option>
+                    <option>Argyll &amp; The Isles</option>
+                    <option>Ayrshire &amp; Arran</option></option>
+                    <option>Dumfries &amp; Galloway</option>
+                    <option>Dundee &amp; Angus</option>
+                    <option>Edinburgh &amp; The Lothians</option>
+                    <option>Greater Glasgow &amp; The Clyde Valley</option>
+                    <option>Loch Lomond, The Trossachs, Stirling &amp; Forth Valley</option>
+                    <option>Orkney</option>
+                    <option>Outer Hebrides</option>
+                    <option>Perthshire</option>
+                    <option>The Highlands</option>
+                    <option>The Kingdom of Fife</option>
+                    <option>Shetland</option>
+                    <option>Scottish Borders</option>
+                </select>
+            </form>
+        </div>
+        <div class="col-sm-9">
+            <form>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="searchFor" placeholder="How can we help you?">
+                    <div class="input-group-btn">
+                        <a class="btn btn-default" href="results.html"><i class="glyphicon glyphicon-search"></i></a>
+                    </div>
+                </div>
+            </form>
+
+            <div class="row">                
+                <div class="col-sm-4">
+                    <div class="suggestion">
+                        <h2>Digital strategy workshop for tourism</h2>
+                        <p>This event will help you ensure that your social and digital media activities for your tourism business are part of a well-thought-out marketing plan.</p>
+                        <p><a href="detail.html" class="btn btn-default se-margin-top">More »</a></p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <h3>Talk to us</h3>
+                <ul class="bottom-navigation">
+                    <li><a href="enquiries@scotent.co.uk">Send an email</a></li>
+                    <li><strong>0300 013 3385</strong> (calls charged at local rates)</li>
+                    <li><strong>0141 247 1385</strong> from mobile phones or if outside Scotland</li>
+                    <li>Minicom <strong>0800 023 2071</strong> - if you are deaf or hard of hearing</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <h3>Find Us</h3>
+                <p>We have offices <a href="">All Over Scotland</a> and <a href="">the world</a>.</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="javascripts/bootstrap.min.js"></script>
+</body>
+</html>
